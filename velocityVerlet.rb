@@ -12,7 +12,7 @@ a = (- (k * r) - (c * v)) / m
 
 (0..tf).step(dt) do |x| 
 
-    puts "#{r}, #{v}, #{a}"
+    puts "#{r}"
 	
 	new_r = r + v * dt + a * dt * dt / 2
 	new_a = (- (k * new_r) - (c * v)) / m
